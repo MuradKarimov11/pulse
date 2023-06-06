@@ -37,5 +37,69 @@
             border: none;
         }
     }
-
+    &-item {
+        width: 300px;
+        min-height: 440px;
+        border: 2px solid #e8e8e8;
+        background-color: #ffffff;
+        padding: 20px 20px 20px 20px;
+        &__img {
+            max-width: 100%;
+            height: 200px;
+            display: block;
+            margin: 0 auto;
+        }
+        &__subtitle {
+            margin-top: 20px;
+            font-weight: 700;
+            font-size: 16px;
+            text-align: center;
+            color: #0D0D0D;
+        }
+        &__descr {
+            margin-top: 15px;
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 22px;
+            text-align: center;
+            color: #0D0D0D;
+        }
+        &__link {
+            display: block;
+            margin-top: 17px;
+            font-weight: 500;
+            font-size: 14px;
+            color: $main-color;
+            text-decoration: underline;
+            text-align: center;
+            &:hover {
+                text-decoration: none;
+            }
+        }
+        hr {
+            background-color: #E8E8E8;
+            margin-top: 19px;
+            margin-bottom: 21px;
+            border-bottom: none;
+        }
+        &__footer {
+            display: flex;
+            justify-content: space-between;
+            align-items:center
+        }
+        &__old-price {
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 14px;
+            text-decoration-line: line-through;
+            color: #555555;
+        }
+        &__price {
+            margin-top: 5px;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 20px;
+            color: #050505;
+        }
+    }
 }
