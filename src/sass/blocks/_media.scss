@@ -1,5 +1,6 @@
 @media (max-width: 991px) {
     .promo {
+        min-height: 610px;
         padding-bottom: 50px;
         .header {
             margin: 0 40px;
@@ -15,6 +16,10 @@
             &__phone {
                 font-style: 17px;
                 font-weight: 500;
+            }
+            .button {
+                height: 30px;
+                font-size: 14px;
             }
         }
         &__wrapper {
@@ -57,7 +62,7 @@
         }
     }
     .consultation {
-        min-height: 630px;
+        min-height: 545px;
         padding: 70px 0 70px 40px;
         .title_left {
             line-height: 35px;
@@ -66,9 +71,72 @@
             line-height: 26px;
         }
     }
+    .comment {
+        &__wrapper {
+            margin-top: 45px;
+            padding: 0 40px 0 40px;
+        }
+        &__item {
+            &_text {
+                margin-left: 45px;
+            }
+            &_title {
+                font-size: 16px;
+            }
+            &_subtitle {
+                font-size: 13px;
+                line-height: 18px;
+            }
+            &_descr {
+                padding-right: 0;
+                font-size: 14px;
+                line-height: 20px;
+            }
+        }
+    }
+    .footer {
+        height: 450px;
+        &__info {
+            padding: 40px;
+            width: 410px;
+            height: 235px;
+        }
+        &__addr {
+            font-size: 19px;
+            line-height: 10px;
+        }
+        &__phone {
+            font-size: 19px;
+            margin-top: 34px;
+        }
+    }
     .title {
         font-size: 27px;
         line-height: 27px;
+    }
+    .feed-form {
+        width: 260px;
+        margin-top: 13px;
+        input {
+            font-size: 13px;
+            height: 45px;
+        }
+    }
+    .modal {
+        padding: 30px 40px 30px 40px;
+        width: 340px;
+        min-height: 360px;
+        &__subtitle {
+            font-size: 16px;
+        }
+        &__descr {
+            font-size: 13px;
+            margin-top: 8px;
+        }
+    }
+    .button {
+        height: 45px;
+        font-size: 14px;
     }
 }
     
