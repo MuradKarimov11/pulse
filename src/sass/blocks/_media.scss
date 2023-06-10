@@ -71,6 +71,27 @@
             line-height: 26px;
         }
     }
+    .carousel {
+        padding: 60px 40px 0 40px;
+        &__inner {
+            width: 550px;
+        }
+        &__img {
+            width: 550px;
+        }
+    }
+    .catalog {
+        padding: 60px 40px;
+        &__tabs {
+            margin-top: 55px;
+        }
+        &__tab {
+            font-size: 17px;
+            width: 210px;
+            height: 47px;
+            line-height: 47px;
+        }
+    }
     .comment {
         &__wrapper {
             margin-top: 45px;
