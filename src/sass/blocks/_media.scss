@@ -91,6 +91,11 @@
             height: 47px;
             line-height: 47px;
         }
+        &__content {
+            width: 690px;
+            margin: 0 auto;
+            margin-top: 60px;
+        }
     }
     .comment {
         &__wrapper {
@@ -159,5 +164,8 @@
         height: 45px;
         font-size: 14px;
     }
+}
+@media (max-width: 767px) {
+    
 }
     

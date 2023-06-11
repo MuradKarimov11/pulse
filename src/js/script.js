@@ -8,11 +8,11 @@ $(document).ready(function(){
         nextArrow: '<button type="button" class="slick-next"><img src="../icons/right.svg"></button>',
         responsive: [
             {
-                breakpoint: 992,
+                breakpoint: 576,
                 settings: {
                     dots: true,
                     arrows: false
-                }
+                },
             }
         ]
     });
