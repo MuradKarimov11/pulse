@@ -1,5 +1,5 @@
 {
-  "name": "uber",
+  "name": "pulse",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MuradKarimov11/uber_.git"
+    "url": "git+https://github.com/MuradKarimov11/pulse.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/MuradKarimov11/uber_/issues"
+    "url": "https://github.com/MuradKarimov11/pulse/issues"
   },
-  "homepage": "https://github.com/MuradKarimov11/uber_#readme",
+  "homepage": "https://github.com/MuradKarimov11/pulse#readme",
   "devDependencies": {
     "browser-sync": "^2.29.3",
     "gulp": "^4.0.2",
